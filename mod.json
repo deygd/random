@@ -1,0 +1,67 @@
+{
+    "geode": "3.0.0",
+    "gd": {
+        "win": "2.206",
+        "android": "2.206",
+        "mac": "2.206",
+        "ios": "2.206"
+    },
+    "id": "claudemod.practiceplus",
+    "name": "Practice Plus",
+    "version": "v1.0.0",
+    "developer": "ClaudeMod",
+    "description": "Supercharge practice mode! Deaths per checkpoint, session timer, best CP highlight, jump-to-best button, and a satisfying click sound on every jump.",
+    "tags": ["gameplay", "practice", "qol", "utility"],
+    "settings": {
+        "enable-click-sound": {
+            "type": "bool",
+            "default": true,
+            "name": "Click Sound",
+            "description": "Play a sound effect every time you click / jump."
+        },
+        "custom-click-sound": {
+            "type": "bool",
+            "default": false,
+            "name": "Use Custom Click Sound",
+            "description": "Use click.ogg from the mod's resources folder instead of the built-in GD sound."
+        },
+        "click-volume": {
+            "type": "float",
+            "default": 0.6,
+            "min": 0.0,
+            "max": 1.0,
+            "name": "Click Volume",
+            "description": "Volume of the click sound effect."
+        },
+        "show-death-counter": {
+            "type": "bool",
+            "default": true,
+            "name": "Show Deaths Per Checkpoint",
+            "description": "Displays how many times you have died at each checkpoint."
+        },
+        "show-session-timer": {
+            "type": "bool",
+            "default": true,
+            "name": "Show Session Timer",
+            "description": "Shows how long you have been practicing this level."
+        },
+        "highlight-best-checkpoint": {
+            "type": "bool",
+            "default": true,
+            "name": "Highlight Best Checkpoint",
+            "description": "Adds a pulsing gold glow to your furthest checkpoint."
+        },
+        "best-checkpoint-jump": {
+            "type": "bool",
+            "default": true,
+            "name": "Best Checkpoint Jump Button",
+            "description": "Adds a button in the pause menu to warp to your furthest checkpoint."
+        },
+        "death-counter-color": {
+            "type": "color",
+            "default": [255, 80, 80, 255],
+            "name": "Death Counter Color",
+            "description": "Color of the deaths-per-checkpoint label."
+        }
+    }
+}
